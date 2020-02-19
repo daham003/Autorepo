@@ -25,6 +25,7 @@ public class Auto {
 
     public static void main(String[] args) {
         Auto auto1 = new Auto("Audi A1", 75);
+        Auto auto2 = new Auto("Honda Prelude", 200);
         System.out.println(auto1.getName()+" "+auto1.getPs());
 
     }
