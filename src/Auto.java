@@ -23,10 +23,14 @@ public class Auto {
         this.ps = ps;
     }
 
+
     public static void main(String[] args) {
         Auto auto1 = new Auto("Audi A1", 75);
         Auto auto2 = new Auto("Honda Prelude", 200);
+        Garage garage1 = new Garage(null);
         System.out.println(auto1.getName()+" "+auto1.getPs());
+
+
 
     }
 }
